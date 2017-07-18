@@ -30,12 +30,14 @@ Your solution should pass all tests, run with no errors, and have useful comment
 
 NOTE: We expect you to be able to complete this challenge without the need for any addition JavaScript libraries (that means NO jQuery). However, if you use any online references please include links in your comments to the source.
 
-### Part 3 - Expansion
+### Part 3 (Required) - Expansion
 
 Choose one (or more) of the following features to add the the page:
 - Upon checking a phrase, add it to a running list of the previous 10 phrases entered and their results
 - Add a toggle that allows someone to specify rather they want punctuation to be included in checking if something is a palindrome
+  - Add logic to make the toggle work in code
 - Add a toggle that allows someone to specify rather they want whitespace to be included in checking if something is a palindrome
+  - Add logic to make the toggle work in code
 
 ### Part 4 (Optional) - Making it better
 

@@ -6,9 +6,9 @@ Difficulty: 3/5
 Expected time: 45min
 
 # Applicant Info
-Name: 
+Name: [Enter Your Name]
 
-email:
+email: [Enter Your Email Address]
 
 # Directions
 

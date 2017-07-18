@@ -38,6 +38,8 @@ Choose one (or more) of the following features to add the the page:
   - Add logic to make the toggle work in code
 - Add a toggle that allows someone to specify whether they want whitespace to be included in checking if something is a palindrome
   - Add logic to make the toggle work in code
+  
+NOTE: We expect you to be able to complete this challenge without the need for any addition JavaScript libraries (that means NO jQuery). However, if you use any online references please include links in your comments to the source.
 
 ### Part 4 (Optional) - Making it better
 

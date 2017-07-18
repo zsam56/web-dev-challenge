@@ -3,7 +3,7 @@ A simple web development challenge for potential hires
 
 Difficulty: 2/5
 
-Expected time: 20 - 30min
+Expected time: 20min
 
 # Applicant Info
 Name: 

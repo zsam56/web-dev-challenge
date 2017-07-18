@@ -1,5 +1,9 @@
-# web-dev-challenge
+# Web Dev Challenge
 A simple web development challenge for potential hires
+
+Difficulty: 2/5
+
+Expected time: 20 - 30min
 
 # Applicant Info
 Name: 

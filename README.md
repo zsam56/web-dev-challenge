@@ -3,7 +3,7 @@ A simple web development challenge for potential hires
 
 Difficulty: 3/5
 
-Expected time: 20min
+Expected time: 45min
 
 # Applicant Info
 Name: 
@@ -45,4 +45,4 @@ Here is where you can feel free to improve on the look, feel, and functionality 
 
 ### Part 5 - Submission
 
-To submit, push all your work and changes to your own repo and create a pull request to the original repository's master branch. Be sure to include any and all additional changes you might have made either in code comments, your ReadMe file, or in an addition .txt file.
+To submit, push all your work and changes to your own repo and create a pull request to the original repository's master branch. Be sure to include any and all additional changes you might have made either in code comments or this readme file

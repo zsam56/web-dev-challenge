@@ -30,10 +30,17 @@ Your solution should pass all tests, run with no errors, and have useful comment
 
 NOTE: We expect you to be able to complete this challenge without the need for any addition JavaScript libraries (that means NO jQuery). However, if you use any online references please include links in your comments to the source.
 
-### Part 3 (Optional) - Making it better
+### Part 3 - Expansion
+
+Choose one (or more) of the following features to add the the page:
+- Upon checking a phrase, add it to a running list of the previous 10 phrases entered and the results of it they were a palidrome to the page
+- Add a toggle that allows someone specify rather they want punctuation to be included in checking if something is a palindrome
+- Add a toggle that allows someone specify rather they want whitespace to be included in checking if something is a palindrome
+
+### Part 4 (Optional) - Making it better
 
 Here is where you can feel free to improve on the look, feel, and functionality of the site as you please (provided you stick to not using any additional JavaScript libraries).
 
-### Part 4 - Submission
+### Part 5 - Submission
 
 To submit, push all your work and changes to your own repo and create a pull request to the original repository's master branch. Be sure to include any and all additional changes you might have made either in code comments, your ReadMe file, or in an addition .txt file.

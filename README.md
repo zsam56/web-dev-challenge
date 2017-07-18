@@ -34,9 +34,9 @@ NOTE: We expect you to be able to complete this challenge without the need for a
 
 Choose one (or more) of the following features to add the the page:
 - Upon checking a phrase, add it to a running list of the previous 10 phrases entered and their results
-- Add a toggle that allows someone to specify rather they want punctuation to be included in checking if something is a palindrome
+- Add a toggle that allows someone to specify whether they want punctuation to be included in checking if something is a palindrome
   - Add logic to make the toggle work in code
-- Add a toggle that allows someone to specify rather they want whitespace to be included in checking if something is a palindrome
+- Add a toggle that allows someone to specify whether they want whitespace to be included in checking if something is a palindrome
   - Add logic to make the toggle work in code
 
 ### Part 4 (Optional) - Making it better

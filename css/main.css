@@ -1,0 +1,26 @@
+#palindrome-form {
+	margin-bottom: 15px;
+}
+
+#phrase-input {
+	min-width: 400px;
+}
+
+#test-container {
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 10px;
+}
+
+#test-results {
+	white-space: pre;
+}
+
+.feedback {
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+.alert {
+	display: none;
+}

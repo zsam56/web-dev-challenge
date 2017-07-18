@@ -12,8 +12,33 @@
 	<div class="jumbotron">
 		<div class="container">
 			<h1>Is it a palindrome?</h1>
-			<p>Simply type in a word, sentence, number, or anything else and we'll let you know if its a <a target="_blank" href="https://en.wikipedia.org/wiki/Palindrome" alt="palindrome wiki">palindrome</a></p>
+			<p>Simply type in a word, sentence, number, or anything else and we'll let you know if it's a <a target="_blank" href="https://en.wikipedia.org/wiki/Palindrome" alt="palindrome wiki">palindrome</a>.</p>
 		</div>
+	</div>
+
+	<div class="container text-center">
+		<form id="palindrome-form" class="form-inline">
+			<div class="form-group">
+				<label for="phrase-input">Phrase</label>
+				<input id="phrase-input" class="text-center form-control" type="text" placeholder="abcba">
+			</div>
+			<p class="feedback">Is it a palindrome?</p>
+			<button class="btn btn-default">Check</button>
+		</form>
+
+
+		<div id="success" class="alert alert-success" role="alert">
+			<p><b>Well done!</b> What you've entered is a palidrome!</p>
+		</div>
+
+		<div id="error" class="alert alert-danger" role="alert">
+			<p><b>Uh oh!</b> That doesn't seem to be a palindrome. Check what you've entered and try again...</p>
+		</div>
+	</div>
+
+	<div id="test-container" class="container">
+		<button id="test-button" class="btn btn-primary"> Test</button>
+		<p id="test-results"></p>
 	</div>
 
 	<script src="./js/jquery.min.js"></script>

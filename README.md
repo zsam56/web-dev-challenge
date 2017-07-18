@@ -8,7 +8,7 @@ Expected time: 45min
 # Applicant Info
 Name: [Enter Your Name]
 
-email: [Enter Your Email Address]
+Email: [Enter Your Email Address]
 
 # Directions
 

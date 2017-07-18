@@ -15,7 +15,7 @@ For this to work correctly you must implement the code for 2 functions, RemoveWh
 
 Once you think you have it, enter some phrases and test it out yourself.
 
-In addition to your own tests you can click the Test button in the lower left hand corner of the page OR run "Text()" in the console to see how you do against some tests we've come up with.
+In addition to your own tests you can click the "Test" button in the lower left hand corner of the page (OR run "Text()" in the console if you prefer) to see how you do against some tests we've come up with.
 
 Your solution should pass all tests, run with no errors, and have useful comments where your feel necessary!
 

@@ -8,7 +8,8 @@
  *
  */
 function RemoveWhitespace(phrase) {
-	// TODO
+	//reg ex to remove any whitespace in the phrase
+	phrase = phrase.replace(/\s/g, "");
 	return phrase;
 }
 
@@ -21,7 +22,32 @@ function RemoveWhitespace(phrase) {
  *
  */
 function IsItAPalindrome(phrase) {
-	// TODO
+	phrase.toLowerCase();
+	//if length is 0 or 1 it must be a palindrome
+	if (phrase.length == 0 || phrase.length == 1){
+		return true;
+	}
+	//if length is 2 just compare both chars
+	else if (phrase.length == 2){
+		var array = phrase.split("");
+		return array[0] === array[1];
+	} else{
+		//split the string in half
+		var mid = phrase.length / 2;
+		var first_half = phrase.substring(0, mid);
+		if (phrase.length % 2 != 0){
+			var end_half = phrase.substring(mid+1);
+		} else{
+			var end_half = phrase.substring(mid);
+		}
+		//reverse the end half
+		var end_array = end_half.split("");
+		var rev = end_array.reverse();
+		var end_reverse = rev.join("");
+		//compare the first half and the reversed half
+		return first_half === end_reverse;
+
+	}
 	return false;
 }
 
@@ -69,8 +95,11 @@ function FormSubmitted(e) {
 	let phraseInput = document.getElementById("phrase-input");
 	let phrase = phraseInput.value;
 
-	// Remove the whitespace from the phrase
-	phrase = RemoveWhitespace(phrase);
+	// Only remove the whitespace if the user has not checked the box
+	let spaceCheck = document.getElementById("space-check");
+	if (!spaceCheck.checked){
+		phrase = RemoveWhitespace(phrase);
+	}
 
 	// See if its a palidrome
 	let isPalidrome = IsItAPalindrome(phrase);
@@ -266,8 +295,8 @@ function Test(displayOnPage) {
 	// Run tests
 	for (let i = 0; i < numTests; i++) {
 		let currentTest = tests[i];
-
-		if (currentTest.expectedResult != IsItAPalindrome(currentTest.phrase)) {
+		phrase = RemoveWhitespace(currentTest.phrase);
+		if (currentTest.expectedResult != IsItAPalindrome(phrase)) {
 			// Hold on to phrases handled incorrectly
 			incorrectlyHandled.push(currentTest.phrase);
 		}

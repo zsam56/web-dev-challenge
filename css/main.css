@@ -24,3 +24,8 @@
 .alert {
 	display: none;
 }
+
+.space-check-container{
+	margin-top: 10px;
+	display: block;
+}
